@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "E:/esp4.2/components/bootloader/subproject",
+    "build_dir":          "E:/esp4.2/lab4/build/bootloader",
+    "config_file":        "E:/esp4.2/lab4/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.2",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "E:/esp4.2/components/efuse/Kconfig;E:/esp4.2/components/esp32/Kconfig;E:/esp4.2/components/esp_common/Kconfig;E:/esp4.2/components/log/Kconfig;E:/esp4.2/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "E:/esp4.2/components/bootloader/Kconfig.projbuild;E:/esp4.2/components/esptool_py/Kconfig.projbuild;E:/esp4.2/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "E:/esp4.2/components/bootloader", "E:/esp4.2/components/bootloader_support", "E:/esp4.2/components/efuse", "E:/esp4.2/components/esp32", "E:/esp4.2/components/esp_common", "E:/esp4.2/components/esp_rom", "E:/esp4.2/components/esptool_py", "E:/esp4.2/components/log", "E:/esp4.2/components/bootloader/subproject/main", "E:/esp4.2/components/bootloader/subproject/components/micro-ecc", "E:/esp4.2/components/partition_table", "E:/esp4.2/components/soc", "E:/esp4.2/components/spi_flash", "E:/esp4.2/components/xtensa", "" ]
+}
