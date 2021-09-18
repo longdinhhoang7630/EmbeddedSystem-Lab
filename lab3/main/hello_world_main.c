@@ -17,7 +17,7 @@ void task( void * pv )
 	  printf("Begin: %f\n",(double)((double)begin/ CLOCKS_PER_SEC));
       printf("Preemption: %d\n",configUSE_PREEMPTION);
       printf("Time slice: %d\n",configUSE_TIME_SLICING);
-	  while(count<duration)
+	  while(count<duration*100)
 	  {
 		count++;
 	  }
